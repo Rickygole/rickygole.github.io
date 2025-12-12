@@ -48,4 +48,17 @@ document.addEventListener('DOMContentLoaded', function(){
             }
         });
     });
+
+    // Accordion behavior for Research section
+    document.querySelectorAll('.accordion-custom .acc-item').forEach(item=>{
+        const btn = item.querySelector('.acc-toggle');
+        if(btn){
+            btn.addEventListener('click', ()=>{ item.classList.toggle('open'); });
+        }
+    });
+
+    // Simple gallery click -> open image in new tab (light and safe)
+    document.querySelectorAll('.gallery-grid img').forEach(img=>{
+        img.addEventListener('click', ()=>{ window.open(img.src, '_blank'); });
+    });
 });
