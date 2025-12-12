@@ -32,3 +32,22 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+// Small enhancements for the new layout
+document.addEventListener('DOMContentLoaded', function () {
+    // set year in footer
+    const y = document.getElementById('year'); if (y) y.textContent = new Date().getFullYear();
+
+    // change nav background on scroll
+    const nav = document.querySelector('.site-nav');
+    function onScroll(){ if(window.scrollY>50) nav.classList.add('scrolled'); else nav.classList.remove('scrolled'); }
+    onScroll(); window.addEventListener('scroll', onScroll);
+
+    // smooth scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+        a.addEventListener('click', e=>{
+            const target = document.querySelector(a.getAttribute('href'));
+            if(target){ e.preventDefault(); target.scrollIntoView({behavior:'smooth', block:'start'}); }
+        });
+    });
+});
