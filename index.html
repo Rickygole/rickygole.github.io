@@ -1,140 +1,421 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Resume - Start Bootstrap Theme</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <aside class="left-nav" id="leftNav">
-            <div class="left-inner">
-                <img class="sidebar-avatar" src="assets/img/avatar.jpg" alt="Ricky">
-                <div class="brand">Rickygole</div>
-                <div class="brand-sub">Assistant Professor</div>
-                <nav class="nav-links">
-                    <a href="#home">Home</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#research">Research</a>
-                    <a href="#news">News</a>
-                    <a href="#gallery">Gallery</a>
-                    <a href="#about">About</a>
-                    <a href="#contact">Contact</a>
-                </nav>
-                <div class="nav-footer">© <span id="year"></span></div>
-            </div>
-        </aside>
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Dr. Jamell Dacon</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="Dr. Jamell Dacon" />
+	<!-- Add this meta tag to the head of your HTML page to control viewport scaling on mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-        <main class="main-content">
-            <!-- Hero -->
-            <header id="home" class="hero-wrap">
-                <div class="hero-bg"></div>
-                <div class="hero-overlay">
-                    <div class="overlay-card">
-                        <h1>Ricky Gole</h1>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                        <a class="btn btn-outline-light" href="#projects">View Projects</a>
-                    </div>
-                </div>
-            </header>
 
-            <section id="projects" class="section">
-                <div class="container">
-                    <h2 class="section-title">Projects</h2>
-                    <div class="row g-4">
-                        <div class="col-md-4">
-                            <div class="card shadow-sm">
-                                <img src="https://picsum.photos/seed/p1/600/400" class="card-img-top" alt="project">
-                                <div class="card-body"><h5>Project One</h5><p>Lorem ipsum dolor sit amet.</p></div>
-                            </div>
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<div id="colorlib-page">
+		<div class="container-wrap">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url(images/JamellDacon.JPG);"></div>
+				<h1 id="colorlib-logo"><a href="index.html">Jamell Dacon</a></h1>
+				<span class="position">Assistant Professor</span>
+			</div>
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+				<div id="navbar" class="collapse">
+					<ul>
+						<li class="active"><a href="#" data-nav-section="about">About</a></li>
+						<li><a href="#" data-nav-section="research">Research</a></li>
+                                                <li><a href="#" data-nav-section="news">News</a></li>
+						<li><a href="#" data-nav-section="gallery">Gallery</a></li>
+						<li><a href="#" data-nav-section="contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+
+                        <div class="text-center">
+                                <div>
+   					<center><div style="width:100px;height:150px;margin:20px"><script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=o1FkP_zJTLjDDbo8uV3FN_l7eRI4hFRo19qk0ISGZmY"></script></div></center>
+				</div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card shadow-sm">
-                                <img src="https://picsum.photos/seed/p2/600/400" class="card-img-top" alt="project">
-                                <div class="card-body"><h5>Project Two</h5><p>Lorem ipsum dolor sit amet.</p></div>
-                            </div>
+
+		</aside>
+
+		<div id="colorlib-main">
+			<section class="colorlib-about" data-section="about">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+									<div class="about-desc">
+										<span class="heading-meta">About</span>
+										<h3 class="colorlib-heading">"Education’s purpose is to replace an empty mind with an open one." — Malcolm Forbes</h3>
+                                                                                <p>
+                                                                                <strong>Dr. Jamell Dacon</strong> is a (Tenure-Track) Assistant Professor in the <a href="https://www.morgan.edu/scmns/computerscience">Department of Computer Science</a> at <a href="https://www.morgan.edu">Morgan State University</a>, where he serves as the Director & Lead Principal Investigator of the Machine Intelligence and Data Science (<a href="https://minds-lab-msu.github.io">MINDS</a>) Lab, and a faculty at the Center for Equitable Artificial Intelligence and Machine Learning Systems (<a href="https://www.morgan.edu/ceamls">CEAMLS</a>). His work is dedicated to harnessing AI, ML and Data Science to address both error and outcome disparities (e.g., poor system performance or non-interpretable results) &mdash; the core philosophy of his work is to better understand the complex relationships between technology and society. 
+                                                                                </p>
+                                                                                <p>
+                                                                                Dr. Dacon earned a Ph.D. and M.S. in Computer Science from <a href="https://www.msu.edu/">Michigan State University</a> in 2023 and 2020, respectively, supported by prestigious Michigan State University's University Enrichment Fellowship (UEF) and National Science Foundation GRFP fellowship under the guidance of Dr. <a href="https://www.cse.msu.edu/~tangjili/">Jiliang Tang</a>. Prior to his doctoral studies, Dr. Dacon completed a B.S. in Mathematics and an A.S. in Computer Science at City University of New York&mdash;<a href="https://www.mec.cuny.edu/">Medgar Evers College</a> in 2018 and 2017, respectively. In addition to his academic pursuits, Dr. Dacon actively contributes to the scholarly community as a Program Committee member and reviewer for top-tier international conferences and journals in machine learning and data science, including Nature, *ACL, AAAI, TheWebConf (previously WWW), ICML, IJCAI, CHI, KDD, LREC, etc.
+                                                                                </p>  
+									</div>
+								</div>
+							</div>
+                                        <div class="row">
+                                                <div class="col-md-12 animate-box">
+                                                        <p><a href="https://msutoday.msu.edu/news/2023/graduate-voice-turning-first-generation-barriers-into-historical-firsts?collection=bc6f8813-8e5e-4555-b323-815c9aa6091e" class="btn btn-primary btn-lg btn-load-more">Read MSU Today Article <i class="fa fa-link"></i></a></p>
+                                                </div>
+                                        </div>
+							<div class="row">
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+									<div class="services color-0">
+										<span class="icon2"><i class="fa fa-file-text-o" aria-hidden="true"></i></span>
+										<h3><a href="https://drive.google.com/file/d/1T3jRaRW-YQYuujxI5JcRXkGLFXPV-i4e/view">CV</a></h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+									<div class="services color-0">
+										<span class="icon2"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+										<h3><a href="https://www.linkedin.com/in/jamelldacon">LinkedIn</a></h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+									<div class="services color-0">
+										<span class="icon2"><i class="fa fa-google" aria-hidden="true"></i></span>
+										<h3><a href="https://scholar.google.com/citations?hl=en&user=TaOS2ssAAAAJ">Google Scholar</a></h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+									<div class="services color-0">
+										<span class="icon2"><i class="fa fa-file-text" aria-hidden="true"></i></span>
+										<h3><a href="https://drive.google.com/file/d/10NVqXa61RX7HKAlux_yCy_gfNtybPLlL/view">Teaching</a></h3>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+									<div class="hire">
+										<h3>As a distinguished computer scientist, Dr. Jamell Dacon empowers students, faculty, and the broader community through education and leadership, addressing the significant challenges facing our world today.</h3>
+										<a href="mailto:jamell.dacon@morgan.edu" class="btn-hire">Send an Email</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="colorlib-skills" data-section="research">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Research</span>
+							<h2 class="colorlib-heading">Research Interest and Focus</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<p><i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                                                        <b>Interdisciplinary AI for Complex Systems:</b> Advancing the application of artificial intelligence across healthcare,
+epidemiology, computational biology, social sciences, and education, emphasizing data-driven frameworks that
+enhance system-level understanding and decision support.
+							</p>
+                                                        <p><i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                                                        <b>AI for Societal-Scale Impact:</b> Developing and evaluating AI methodologies that strengthen digital infrastructure, optimize information ecosystems, and promote human well-being through reliable and context-aware computational models.</p>
+                                                        <p><i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                                                        <b>Model Robustness and Interpretability:</b> Designing interpretable, generalizable, and methodologically sound AI systems with validated performance across domains such as clinical decision support, public policy modeling, and educational analytics.
+							</p>
+
+						</div>
+					</div>
+
+
+                                        <h5 class="colorlib-heading">Research Areas</h5>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="fancy-collapse-panel">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingOne">
+									        <h4 class="panel-title">
+									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Trustworthy AI
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+									        <div class="panel-body">
+									            <p>
+											Trustworthy AI demands robust governance and unwavering regulatory compliance across the entire AI lifecycle—from conceptualization to design, development, and deployment. This comprehensive framework ensures that AI technologies remain transparent, accountable, and secure. It prioritizes explainability, robustness, and reliability, while steadfastly upholding privacy, safety, and security. Furthermore, it is grounded in a deep commitment to social and environmental responsibility, ensuring that AI serves the greater good of society.
+   										   </p>	
+									        </div>
+									    </div>
+									</div>
+
+                                                                       <div class="panel panel-default">
+                                                                            <div class="panel-heading" role="tab" id="headingTwo">
+                                                                                <h4 class="panel-title">
+                                                                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseOne">FATE in AI
+                                                                                    </a>
+                                                                                </h4>
+                                                                            </div>
+                                                                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                                                                <div class="panel-body">
+                                                                                    <p>
+                                                                                   AI algorithms have long been criticized for producing biased and opaque results. In response, our mission is to pioneer computational techniques that are not only groundbreaking but also responsible. By placing paramount importance on issues of Fairness, Accountability, Transparency, and Ethics (FATE), it is crucial to ensure that AI, Machine Learning (ML), and Natural Language Processing (NLP) address the complex societal challenges they create. This approach is designed to foster trust, mitigate harm, and shape AI systems that truly benefit all.
+										   </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                       <div class="panel panel-default">
+                                                                            <div class="panel-heading" role="tab" id="headingThree">
+                                                                                <h4 class="panel-title">
+                                                                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Data Science for Social Good
+                                                                                    </a>
+                                                                                </h4>
+                                                                            </div>
+                                                                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                                                <div class="panel-body">
+                                                                                   <p>
+										   Data Science for Social Good is dedicated to answering the most pressing questions of human well-being through the power of machine learning, data science, and AI. This initiative focuses on projects that prioritize social impact, working hand-in-hand with governments and nonprofit organizations to tackle real-world challenges across critical sectors such as health, criminal justice, political science, and more. The goal is to leverage data-driven insights to drive meaningful, lasting change for society at large. 
+                                                                                   </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                       <div class="panel panel-default">
+                                                                            <div class="panel-heading" role="tab" id="headingFour">
+                                                                                <h4 class="panel-title">
+                                                                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">AI + X
+                                                                                    </a>
+                                                                                </h4>
+                                                                            </div>
+                                                                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                                                                <div class="panel-body">
+                                                                                    <p>
+                                                                                    Much like Data Science for Social Good, AI+X embraces interdisciplinary collaboration across a wide spectrum of fields—both within STEM and beyond. This initiative seeks to push the boundaries of knowledge by conducting pioneering research at the intersection of AI and diverse disciplines, including Education, Biology, Psychology, Linguistics, Social Science, Healthcare, and beyond. By blending AI with other domains, AI+X aims to unlock innovative solutions to complex global challenges, enhancing the impact of AI across every facet of human endeavor.
+                                                                                   </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+                        <section class="colorlib-blog" data-section="news">
+                                <div class="colorlib-narrow-content">
+                                        <div class="row">
+                                                <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                                        <span class="heading-meta">News</span>
+                                                        <h2 class="colorlib-heading">Recent News and Updates</h2>
+                                                </div>
+                                        </div>
+                                        <!--div class=="col-md-12 animate-box"-->
+					 <div class="panel-body">
+					<div class=="col-md-12 animate-box">
+					  <div class="responsive-iframe">
+    <iframe src="https://docs.google.com/document/d/e/2PACX-1vRiUjcbd63lagNZKc-FjpfFsiRtl6S0rDbz6g9Py-PJq_FPvZMX50vsbHoEqGI10LBA3-AypPecsbZN/pub?embedded=true" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+					  </div>
+					 </div>
+        	                                <!--div class="panel-body">
+							<iframe width="100%" height="500" src="https://docs.google.com/document/d/e/2PACX-1vRiUjcbd63lagNZKc-FjpfFsiRtl6S0rDbz6g9Py-PJq_FPvZMX50vsbHoEqGI10LBA3-AypPecsbZN/pub?embedded=true" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+                        	                </div-->
+                                        </div>
+                                <div>
+                        </section>
+
+
+			<section class="colorlib-work" data-section="gallery">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Gallery</span>
+							<h2 class="colorlib-heading animate-box">Photos and Images</h2>
+						</div>
+					</div>
+					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+					</div>
+					<div class="row">
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url(images/rac.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3 style="color:white;">Research Affinity Cohort @ Clark Atlanta University</h3>
+										<p class="icon">
+											<span><a href="https://national-data-science-alliance.us.hivebrite.com/page/research-affinity-cohorts"><i class="icon-share3"></i></a></span>
+											<span><i class="icon-eye"></i> 109K</span>
+											<span><i class="icon-heart"></i> 4,910</span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/guardian.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3 style="color:white;">T&T National makes waves at Michigan State University</h3>
+										<p class="icon">
+											<span><a href="https://www.guardian.co.tt/news/tt-national-makes-waves-at-michigan-state-university-6.2.1952709.21e1b6082f"><i class="icon-share3"></i></a></span>
+											<span><i class="icon-eye"></i> 3M</span>
+											<span><i class="icon-heart"></i> 93K</span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url(images/bloomberg-1.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3 style="color:white;">Visit to Bloomberg LP Headquarters</a></h3>
+										<p class="icon">
+											<span><a href="https://www.linkedin.com/posts/jamelldacon_i-am-excited-to-announce-that-bloomberg-will-activity-7237142594831400962-JSUW?utm_source=share&utm_medium=member_ios"><i class="icon-share3"></i></a></span>
+											<span><i class="icon-eye"></i> 6,891</a></span>
+											<span><i class="icon-heart"></i> 255</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/mec.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3 style="color:white;">Medgar Evers College Visit to Morgan State University</a></h2>
+										<p class="icon">
+											<span><a href="https://www.mec.cuny.edu"><i class="icon-share3"></i></a></span>
+											<span><i class="icon-eye"></i> 500K</a></span>
+											<span><i class="icon-heart"></i> 3,789</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card shadow-sm">
-                                <img src="https://picsum.photos/seed/p3/600/400" class="card-img-top" alt="project">
-                                <div class="card-body"><h5>Project Three</h5><p>Lorem ipsum dolor sit amet.</p></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+			</section>
 
-            <section id="about" class="section bg-light">
-                <div class="container">
-                    <h2 class="section-title">About</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quidem.</p>
-                </div>
-            </section>
 
-            <section id="research" class="section">
-                <div class="container">
-                    <h2 class="section-title">Research</h2>
-                    <div class="accordion-custom">
-                        <div class="acc-item">
-                            <button class="acc-toggle">Research Area One <span class="acc-chev">▾</span></button>
-                            <div class="acc-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                        </div>
-                        <div class="acc-item">
-                            <button class="acc-toggle">Research Area Two <span class="acc-chev">▾</span></button>
-                            <div class="acc-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum.</div>
-                        </div>
-                        <div class="acc-item">
-                            <button class="acc-toggle">Research Area Three <span class="acc-chev">▾</span></button>
-                            <div class="acc-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
-            <section id="news" class="section bg-light">
-                <div class="container">
-                    <h2 class="section-title">News</h2>
-                    <ul class="news-list">
-                        <li><strong>2025-12-01</strong> — Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li><strong>2025-10-18</strong> — Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</li>
-                        <li><strong>2025-08-05</strong> — Phasellus nec sem in justo pellentesque facilisis.</li>
-                    </ul>
-                </div>
-            </section>
+			<section class="colorlib-contact" data-section="contact">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Get in Touch</span>
+							<h2 class="colorlib-heading">Contact</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="mailto:jamell.dacon@morgan.edu">jamell.dacon@morgan.edu</a></p>
+								</div>
+							</div>
 
-            <section id="gallery" class="section">
-                <div class="container">
-                    <h2 class="section-title">Gallery</h2>
-                    <div class="gallery-grid">
-                        <img src="https://picsum.photos/seed/g1/800/600" alt="g1">
-                        <img src="https://picsum.photos/seed/g2/800/600" alt="g2">
-                        <img src="https://picsum.photos/seed/g3/800/600" alt="g3">
-                        <img src="https://picsum.photos/seed/g4/800/600" alt="g4">
-                        <img src="https://picsum.photos/seed/g5/800/600" alt="g5">
-                        <img src="https://picsum.photos/seed/g6/800/600" alt="g6">
-                    </div>
-                </div>
-            </section>
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-map"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>1700 East Cold Spring Lane, Baltimore, MD 21251</p>
+								</div>
+							</div>
 
-            <section id="contact" class="section">
-                <div class="container">
-                    <h2 class="section-title">Contact</h2>
-                    <p>Lorem ipsum — email: lorem@ipsum.com</p>
-                </div>
-            </section>
-        </main>
+                                                        <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                                                                <div class="colorlib-icon">
+                                                                        <i class="fa fa-link" aria-hidden="true"></i>
+                                                                </div>
+                                                                <div class="colorlib-text">
+                                                                        <p>Machine Intelligence and Data Science (<a href="https://minds-lab-msu.github.io">MINDS</a>) Lab</p>
+                                                                </div>
+                                                        </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="js/scripts.js"></script>
-    </body>
+						</div>
+						<div class="col-md-7 col-md-push-1">
+							<div class="row">
+								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
+									<p>
+									Have questions or want to collaborate on AI research? Feel free to research out, always excited to connect with fellow researchers, innovators, and organizations.  
+									</p>
+                                                                        
+                                                                        
+                                                                        
+									<p>
+									<i>Any opinions, findings, and conclusions or recommendations expressed in this website are those of the author and do not necessarily reflect the views of any organization.
+									</i></p>
+									
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div><!-- end:colorlib-main -->
+	</div><!-- end:container-wrap -->
+	</div><!-- end:colorlib-page -->
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
+
