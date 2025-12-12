@@ -1,3 +1,33 @@
+/* Left-nav + hero overlay styles (inspired layout) */
+.left-nav{
+  position:fixed;left:0;top:0;bottom:0;width:240px;background:#fff;border-right:1px solid rgba(0,0,0,0.06);z-index:30;display:flex;align-items:center;
+}
+.left-inner{padding:2rem;display:flex;flex-direction:column;justify-content:space-between;height:100%;}
+.left-inner .brand{font-weight:700;font-size:1.25rem;margin-bottom:1.5rem}
+.nav-links{display:flex;flex-direction:column;gap:1rem}
+.nav-links a{color:#222;text-decoration:none;font-weight:600}
+.nav-links a:hover{color:var(--bs-primary)}
+.nav-footer{font-size:.85rem;color:#666;margin-top:1rem}
+
+.main-content{margin-left:240px}
+
+.hero-wrap{position:relative;min-height:72vh;display:flex;align-items:center}
+.hero-bg{position:absolute;inset:0;background-image:url('../assets/img/profile.jpg');background-size:cover;background-position:center;filter:brightness(.45);}
+.hero-overlay{position:relative;display:flex;align-items:center;justify-content:center;width:100%;padding:6rem 1rem}
+.overlay-card{background:rgba(6,21,34,0.6);color:#fff;padding:2.25rem 2.5rem;border-radius:8px;max-width:760px;text-align:center}
+.overlay-card h1{font-size:2.5rem;margin-bottom:.5rem}
+.overlay-card .lead{opacity:.95;margin-bottom:1.25rem}
+
+.section{padding:4.5rem 0}
+.section-title{text-align:center;font-weight:800;letter-spacing:2px;margin-bottom:2rem}
+
+@media(max-width:991px){
+  .left-nav{position:relative;width:100%;height:auto;border-right:0}
+  .main-content{margin-left:0}
+  .hero-bg{filter:brightness(.5)}
+  .overlay-card{margin:0 1rem}
+}
+
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Resume v7.0.6 (https://startbootstrap.com/theme/resume)
@@ -78,30 +108,6 @@
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
-
-/* --- Custom site styles inspired by requested design --- */
-.site-nav {
-  background: transparent;
-  transition: background-color 200ms ease;
-}
-.site-nav.scrolled {
-  background: rgba(13, 37, 63, 0.9);
-}
-.hero {
-  min-height: 80vh;
-  background: linear-gradient(135deg, rgba(45,55,72,0.95), rgba(66, 33, 33, 0.85)), url('../assets/img/profile.jpg') center/cover no-repeat;
-  padding-top: 6rem;
-}
-.hero-avatar { width: 120px; height: 120px; object-fit: cover; box-shadow: 0 10px 30px rgba(0,0,0,.35); }
-.hero .display-2 { font-weight: 800; letter-spacing: -1px; }
-.card img { height: 200px; object-fit: cover; }
-footer { font-size: .95rem; }
-
-@media (max-width: 767px) {
-  .hero { padding-top: 5rem; }
-  .hero .display-2 { font-size: 2.5rem; }
-}
-
 
 *,
 *::before,
