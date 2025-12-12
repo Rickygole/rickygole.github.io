@@ -16,7 +16,7 @@
 .main-content{margin-left:340px;padding-left:3.5rem}
 
 .hero-wrap{position:relative;min-height:80vh;display:flex;align-items:center}
-.hero-bg{position:absolute;inset:0;background-image:url('../assets/img/profile.jpg');background-size:cover;background-position:center top;filter:brightness(.42);}
+.hero-bg{position:absolute;inset:0;background-image:url('../assets/img/hero.jpg');background-size:cover;background-position:center top;filter:brightness(.42);}
 .hero-overlay{position:relative;display:flex;align-items:center;justify-content:center;width:100%;padding:8rem 1rem}
 .overlay-card{background:rgba(6,21,34,0.60);backdrop-filter:blur(6px);color:#fff;padding:3rem 3rem;border-radius:12px;max-width:720px;text-align:center}
 .overlay-card h1{font-size:3rem;margin-bottom:.6rem}
