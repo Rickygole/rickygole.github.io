@@ -275,6 +275,8 @@
 			animateOut: 'fadeOut',
 			animateIn: 'fadeIn',
 			autoplay: true,
+			autoplayTimeout: 2000, // 2 seconds
+			autoplayHoverPause: true,
 			loop: true,
 			margin: 0,
 			nav: true,
@@ -282,8 +284,8 @@
 			autoHeight: false,
 			items: 1,
 			navText: [
-			   "<i class='icon-arrow-left3 owl-direction'></i>",
-			   "<i class='icon-arrow-right3 owl-direction'></i>"
+			   "<",
+			   ">"
 			]
 		});
 	};
