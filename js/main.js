@@ -338,5 +338,19 @@
 		owlCrouselFeatureSlide();
 	});
 
+	// Quick visual debug: mark gallery area if this script runs in the page
+	setTimeout(function(){
+		try {
+			var $g = $('.gallery-carousel');
+			if ($g.length) {
+				$g.css('outline','3px solid rgba(255,0,0,0.15)');
+				$g.prepend('<div style="position:absolute;left:0;top:0;background:rgba(0,0,0,0.6);color:#fff;padding:4px 8px;z-index:9999;font-size:12px">DEBUG: main.js loaded</div>');
+				console.log('DEBUG: main.js loaded and found gallery element');
+			} else {
+				console.log('DEBUG: main.js loaded but gallery element not found');
+			}
+		} catch(e){ console.error('DEBUG error', e); }
+	}, 200);
+
 
 }());
