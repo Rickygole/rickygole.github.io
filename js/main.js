@@ -288,6 +288,34 @@
 			   ">"
 			]
 		});
+
+		// If Owl didn't initialize (display remains none), provide a lightweight fallback slider
+		setTimeout(function(){
+			var $g = $('.gallery-carousel');
+			if ($g.length && !$g.hasClass('owl-loaded')) {
+				console.warn('Owl carousel did not initialize — using fallback slider');
+				$g.css('display','block').css('position','relative');
+				var $items = $g.find('.item');
+				var idx = 0;
+				$items.hide().eq(0).show();
+
+				function showSlide(n){
+					idx = ((n % $items.length) + $items.length) % $items.length;
+					$items.stop(true,true).fadeOut(300).eq(idx).fadeIn(300);
+				}
+
+				// Add simple nav buttons if not present
+				if ($g.find('.simple-nav').length === 0) {
+					$g.append('<button class="simple-prev simple-nav">&lt;</button>');
+					$g.append('<button class="simple-next simple-nav">&gt;</button>');
+					$g.on('click', '.simple-prev', function(){ showSlide(idx-1); });
+					$g.on('click', '.simple-next', function(){ showSlide(idx+1); });
+				}
+
+				var timer = setInterval(function(){ showSlide(idx+1); }, 2000);
+				$g.hover(function(){ clearInterval(timer); }, function(){ timer = setInterval(function(){ showSlide(idx+1); }, 2000); });
+			}
+		}, 800);
 	};
 
 	// Document on load.

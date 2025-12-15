@@ -1072,6 +1072,23 @@ body.offcanvas {
       min-height: 320px;
     }
 
+    /* Simple fallback nav for the gallery when Owl isn't available */
+    .gallery-carousel { position: relative; }
+    .gallery-carousel .simple-nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(255,255,255,0.9);
+      border: none;
+      padding: 8px 12px;
+      font-size: 20px;
+      cursor: pointer;
+      -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+    .gallery-carousel .simple-prev { left: 12px; }
+    .gallery-carousel .simple-next { right: 12px; }
+
 
 #colorlib-counter {
   position: relative;
