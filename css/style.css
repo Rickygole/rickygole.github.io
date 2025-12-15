@@ -124,7 +124,11 @@ figure {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
-    border-radius: 50%; }
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #e6e7eb; }
   #colorlib-aside .position {
     display: block;
     margin-bottom: 2em;
