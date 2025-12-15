@@ -129,7 +129,7 @@ figure {
     background-position: center center;
     background-repeat: no-repeat;
     background-color: #e6e7eb;
-    background-image: url('images/avatar.jpg'), url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'><rect%20width='100%25'%20height='100%25'%20fill='%23e6e7eb'/><text%20x='50%25'%20y='50%25'%20font-family='Quicksand,Arial,sans-serif'%20font-size='96'%20font-weight='700'%20fill='%23444444'%20text-anchor='middle'%20dy='.35em'>RG</text></svg>"); }
+    background-image: url('images/head.jpeg'), url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'><rect%20width='100%25'%20height='100%25'%20fill='%23e6e7eb'/><text%20x='50%25'%20y='50%25'%20font-family='Quicksand,Arial,sans-serif'%20font-size='96'%20font-weight='700'%20fill='%23444444'%20text-anchor='middle'%20dy='.35em'>RG</text></svg>"); }
   #colorlib-aside .position {
     display: block;
     margin-bottom: 2em;
