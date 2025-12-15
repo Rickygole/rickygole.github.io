@@ -1067,6 +1067,11 @@ body.offcanvas {
 .btn-load-more {
   width: 100%; }
 
+    /* Ensure the gallery area remains visible even if carousel JS hasn't initialized yet */
+    .gallery-carousel {
+      min-height: 320px;
+    }
+
 
 #colorlib-counter {
   position: relative;
